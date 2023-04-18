@@ -27,6 +27,12 @@ body{
     justify-content: space-evenly; 
 }
 
+.hLogo{
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
 .mainentry {
     display: flex;
     flex-direction: row;
@@ -117,8 +123,9 @@ li{
 .registration button {
     background-color: #3882F6;
     border-color: #E5E7EB;
-    border-radius: 5px;
- 
+    border-radius: 8px;
+    color: #E5E7EB;
+
     padding: 5px 20px;
     
 }
