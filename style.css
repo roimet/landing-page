@@ -1,8 +1,11 @@
 body{
     
     margin: 0 auto;
+    
     display: flex;
     flex-direction: column;
+    
+
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
@@ -12,12 +15,23 @@ body{
     background-color: #1F2937;
     color: white;
     
+    display: flex;
+    flex-direction: column;
+    
 }
 
-.header {
+.hero .header {
     display: flex;
     flex-direction: row;
-    align-items: center;    
+    align-items: center;
+    justify-content: space-evenly; 
+}
+
+.mainentry {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly; 
 }
 
 .page-title{
@@ -39,8 +53,25 @@ li{
     list-style: none;
 }
 
+.headimage{
+    width: 300px;
+    height: 150px;
+}
+
+.random{
+
+}
+
+.info-title{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
 .quote {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
     
 }
 .sentence {
@@ -48,6 +79,48 @@ li{
     font-style: italic;
     font-weight:lighter;
     color: #1F2937;
+
+    display: flex;
+    align-self: flex-start;
+    margin: 60px 150px;
+}
+
+.quote .name{
+    font-weight: bold;
+    display: flex;
+    align-self: flex-end;
+    margin-right: 170px;
+}
+
+.registration {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cta-time{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.registration button {
+    background-color: #3882F6;
+    border-color: #E5E7EB;
+    border-radius: 5px;
+ 
+    padding: 5px 20px;
+    
 }
 
 .footer {
