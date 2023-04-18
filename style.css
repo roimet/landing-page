@@ -4,14 +4,20 @@ body{
     padding-bottom: 75%
 }
 
+.hero{
+    background-color: #1F2937;
+    color: white;
+}
+
 .header {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 ul{
@@ -20,4 +26,13 @@ ul{
 
 li{
     list-style: none;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
 }
