@@ -1,0 +1,22 @@
+/*outline*/
+* {
+    outline: 1px solid red;
+  }
+  
+  p {
+    outline-color: blue;
+  }
+  
+  h1 {
+    outline-color: green;
+  }
+  
+  a {
+    outline-color: orange;
+  }
+  /**/
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
