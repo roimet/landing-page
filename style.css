@@ -30,7 +30,7 @@ body {
 ul {
     list-style: none;
     padding: 0;
-    gap: 25px;
+    gap: 30px;
 }
 
 a {
@@ -93,16 +93,20 @@ a {
 
 .description {
   color: #E5E7EB;
+  font-size: 18px;
   margin: 0;
 }
 
 button {
-  height:30px;
-  width: 100px;
-  border-radius: 7px;
+  height:37px;
+  width: 120px;
+  border-radius: 8px;
+  border:none;
+  
   
   margin: 0;
   
+  font-size: 18px;
   font-weight: 800;
   color: #F9FAF8;
   background-color: #3882F6;
